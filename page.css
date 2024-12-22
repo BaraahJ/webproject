@@ -173,3 +173,148 @@ section .start img{
     background: #089da1;
     color: #fff;
 }
+
+
+
+
+.featured{
+    width: 100%;
+    padding: 70px 0;
+    
+}
+
+.featured h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    font-size: 35px;
+   
+}
+
+.featured .Featured-area{
+    margin-left: 60px;
+    width: 95%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow-x: scroll;
+  
+}
+
+.featured .Featured-area .Featured-book{
+    width: 230px;
+    height: 370px;
+    text-align: center;
+    border: 1px solid #323030;
+    margin:  20px;
+}
+
+.featured .Featured-area .Featured-book:hover{
+    box-shadow: 0 0 5px #06bdc3;
+    transform: scale(1.05);
+}
+ 
+.featured .Featured-area .Featured-book img{
+    width: 150px;
+    height: 220px;
+    margin-top: 8px;
+}
+
+.featured .Featured-area .Featured-book .featured-txt{
+    margin-top: 15px;
+}
+
+
+.featured .Featured-area .Featured-book .author{
+    color: #8f8f8f;
+}
+
+.featured .Featured-area .Featured-book .theame{
+    color: #089da1;
+}
+
+.featured .Featured-area .Featured-book .price{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.featured .Featured-area .Featured-book .featured-btn{
+    border: 2px solid #089da1;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 9px;
+}
+
+/* those for the scroll bar ----*/
+::-webkit-scrollbar{
+    width: 7px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #089da1;
+    border-radius: 10px;
+}
+/*----*/
+
+
+.arrivals{
+    width: 100%;
+    height: 100vh;    
+}
+
+.arrivals h1{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+
+.arrivals .arrivals-area{
+    width: 95%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px 0;
+    margin: 0 auto;
+}
+
+.arrivals .arrivals-area .arrivals-book{
+    width: 230px;
+    height: 370px;
+    text-align: center;
+    margin:  20px;
+    border: 1px solid #3e3e3e;
+    
+}
+.arrivals .arrivals-area .arrivals-book:hover{
+    box-shadow: 0 0 5px #089da1;
+    transform: scale(1.05);
+    
+}
+
+.arrivals .arrivals-area .arrivals-book img{
+    width: 150px;
+    height: 220px;
+    margin-top: 13px;
+}
+
+.arrivals .arrivals-area .arrivals-book .arrivals-txt p{
+    font-size: 20px;
+    margin: 8px ;
+}
+
+.arrivals .arrivals-area .arrivals-book .arrivals-txt .arrivals-icon{
+    color: #089da1;
+    margin-bottom: 10px;
+}
+
+.arrivals .arrivals-area .arrivals-book .arrivals-txt .arrivals-btn{
+    border: 2px solid #089da1;
+    text-decoration: none;
+    color: #000;
+    padding: 5px 9px;
+}
+
