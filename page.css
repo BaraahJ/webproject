@@ -317,4 +317,257 @@ section .start img{
     color: #000;
     padding: 5px 9px;
 }
+/*--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.reviews{
+    width: 100%;
+    height: auto;
+}
+.reviews .container{
+    width: 95%;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.review{
+
+    width: 400px;
+    height: 320px;
+    box-shadow: 0 0 8px #0fa8ad;
+    padding: 15px;
+    margin: 0 12px;
+}
+
+.review i{
+float: right;
+font-size: 120px;
+position: relative;
+bottom: 20px;
+color: #eaeaea;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin: 50px 0px 50px 0px;
+}
+
+
+#review h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-optical-sizing: auto;
+    margin: 0px;
+
+}
+
+
+.container
+{
+    margin-left: 20px;
+    display: flex;
+    
+}
+.img-rev{
+    width: 80px;
+    border-radius: 60%;
+    margin-bottom: 10px;
+}
+.review p{
+    margin: 10px 0 10px 0;
+    text-align: justify;
+}
+.stars 
+{
+    font-size: 16px;
+    float: left;
+    margin-top: 0px;
+    color: #0fa8ad;
+    padding: 0 1px;
+}
+.stars img
+{
+   width: 15px;
+}
+
+
+
+
+
+.banner{
+    background-image: url(banner.jpg);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner_btn{
+    padding: 8px 20px;
+    background: #0fa8ad;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 70%;
+    left: 7%;
+}
+
+
+
+.our-blog{
+    width: 100%; 
+    height: auto;
+    margin: 20px 0;
+
+}
+#bloger{
+    width: 100%; 
+    height: 300px;
+
+}
+.container-b{ 
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+   
+    } 
+
+.blog
+{
+    margin: 0 30px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+
+
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    color: #0fa8ad;
+}
+
+.inside-blog{    padding: 20px;
+}
+
+.blog p
+{   margin-top: 10px;
+    line-height: 22px;
+    text-align: justify;
+
+
+}
+
+.blog h4{
+    font-family: "Rubik", serif;
+    font-weight: 500px;
+    font-size: larger;
+    color: #0fa8ad;
+
+}
+
+
+
+
+
+.container-f
+{
+    margin: 0px 35px;
+     width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer
+{
+    width: 100%;
+    background: #eaeaea;
+}
+
+.footer-col img
+{
+    width: 100px;
+    margin-bottom: 10px;
+
+}
+
+.row 
+{
+    display: flex;
+}
+
+ul{list-style: none;}
+
+.footer-col
+{
+    width: 20%;  
+    margin: 10px 0;
+}
+
+a{
+
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.cotact-info-l img { width: 15px;}
+.footer-col{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+}
+.footer-col ul li a:hover{
+	color: rgb(58, 174, 182);
+	padding-left: 8px;
+}
+
+.social-links i{margin : 0 5px;}
+
+.quick-link li{padding: 0px 0px 10px 0px; }
+
+.cotact-icon{
+    display: flex;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+.footer-col h4
+{
+    margin: 25px 0;
+    color: #000;
+    font-size: 20px;
+}
+
+#email,#Subscribe
+{
+    border-radius: 25px;
+    border: 0;
+}
+
+#Subscribe
+{
+    color: white;
+    background-color: rgb(58, 174, 182);
+    padding: 5px 8px;
+    margin-top: 6px;
+    font-size: 10px;
+
+}
+
+#email
+{
+    background-color: rgb(196, 196, 196); 
+    padding: 5px 8px; 
+    font-size: 10px;
+}
